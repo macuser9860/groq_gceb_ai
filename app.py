@@ -66,6 +66,6 @@ if user_prompt:
 
     # Display the 'Need more details?' button as an HTML link
     st.markdown(
-        '<a href="https://gcebbuilders.com" target="_blank"><button>Need more details?</button></a>',
-        unsafe_allow_html=True
+    '<a href="https://gcebbuilders.com" target="_blank"><button>Need more details?</button></a>',
+    unsafe_allow_html=True
     )
