@@ -64,6 +64,9 @@ if user_prompt:
     with st.chat_message("assistant"):
         st.markdown(assistant_response)
 
+    # Create a clickable telephone link
+    st.markdown('[Call Us](tel:9851137441)')
+
     # Display the 'Need more details?' button as an HTML link
     st.markdown(
     '<a href="https://gcebbuilders.com" target="_blank"><button>Need more details?</button></a>',
